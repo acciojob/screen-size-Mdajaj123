@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html>
 
@@ -8,9 +8,32 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<!--     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
+</html> -->
+ -->
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Screen Size</title>
+    <script>
+      window.addEventListener('resize', function () {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        var sizeInfoDiv = document.getElementById('sizeInfo');
+        sizeInfoDiv.innerHTML = `<h1>Width: ${width} and Height: ${height}</h1>`;
+      });
+    </script>
+    <style>
+      #sizeInfo {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sizeInfo"></div>
+  </body>
 </html>
