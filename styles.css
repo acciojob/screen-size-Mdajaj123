@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+#sizeInfo{
+	margin:10px;
+	border:1px solid blue;
+	box-shadow:10px 10px 10px red;
+	border-radius:15px;
+}
