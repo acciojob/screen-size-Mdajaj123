@@ -4,4 +4,4 @@ window.addEventListener("resize" ,()=>{
 	let height=window.innerHeight;
 	let div=document.getElementById("sizeInfo");
 	div.innerHTML=`<h1>width: ${width} and Height: ${height}</h1>`
-})
+});
